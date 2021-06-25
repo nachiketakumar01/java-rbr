@@ -1,0 +1,69 @@
+*{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch firstfile",
+            "request": "launch",
+            "mainClass": "firstfile",
+            "projectName": "java-rbr_5f72cd70"
+        },
+        {
+            "type": "java",
+            "name": "Launch javafive",
+            "request": "launch",
+            "mainClass": "javafive",
+            "projectName": "java-rbr_5f72cd70"
+        },
+        {
+            "type": "java",
+            "name": "Launch pow",
+            "request": "launch",
+            "mainClass": "pow",
+            "projectName": "java-rbr_5f72cd70"
+        },
+        {
+            "type": "java",
+            "name": "Launch welcome",
+            "request": "launch",
+            "mainClass": "welcome",
+            "projectName": "java-rbr_5f72cd70"
+        }
+    ]
+}
