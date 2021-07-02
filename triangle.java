@@ -1,4 +1,14 @@
-public class triangle
+/*
+3. Write a program to print star pattern?
+Input n= 5;
+Output:  
+	    *
+       * *
+      * * *
+     * * * *
+    * * * * *
+*/
+    public class triangle
 {    
 public static void main(String args[])   
 {    
